@@ -1,0 +1,67 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+[class^="amarelo"], [class*="amarelo"]{
+    background-color: #FFD704;
+}
+[class^="ve"], [class*="ve"]{
+    background-color: #a00404;
+    color: #a00404;
+    min-height: 250px;
+}
+[class^="vermelho"], [class*="vermelho"]{
+    background-color: #FF0000;
+    color: #FF0000;
+}
+[class^="be"], [class*="be"]{
+    background-color: #f0e3a5;
+    color: #f0e3a5;
+}
+[class^="bj"], [class*="bj"]{
+    background-color: #f0e3a5;
+    color: #f0e3a5;
+    height: 50px;
+}
+[class^="cinza"], [class*="cinza"]{
+    background-color: #F4F4F8;
+    color: #F4F4F8;
+    min-height: 140px;
+}
+[class^="branco"], [class*="branco"]{
+    background-color: #ffff;
+    color: #ffff;
+    height: 50px;
+}
+[class^="verde"], [class*="verde"]{
+    background-color: #00FF1A;
+    color: #00FF1A;
+    height: 250px;
+}
+.banner{
+    background-image: url(img/amburge.jpeg);
+    height: 500px;
+    background-size: cover;
+    color: #ffff;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.banner-p{
+    background-image: url(img/AdobeStock_334881645.jpeg);
+    height: 138px;
+    width: 333px;
+    background-size: cover;
+    color: #ffff;
+}
+.banner-c{
+    background-image: url(img/AdobeStock_577168329.jpeg);
+    height: 138px;
+    width: 333px;
+    background-size: cover;
+    color: #ffff;
+}
+h2{
+    font-size: 20px;
+}
