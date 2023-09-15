@@ -54,6 +54,7 @@
     width: 333px;
     background-size: cover;
     color: #ffff;
+    border-radius: 10px;
 }
 .banner-c{
     background-image: url(img/AdobeStock_577168329.jpeg);
@@ -61,6 +62,7 @@
     width: 333px;
     background-size: cover;
     color: #ffff;
+    border-radius: 10px;
 }
 h2{
     font-size: 20px;
