@@ -1,5 +1,15 @@
-@media (max-width: 366px) {
+@media (max-width: 321px) {
     h5, h6{
-        font-size: 56px !important;
+        font-size: 45px !important;
+    }
+}
+@media (max-width: 376px) {
+    h5, h6{
+        font-size: 58px !important;
+    }
+}
+@media (max-width: 3426px) {
+    h5, h6{
+        font-size: 46px !important;
     }
 }
