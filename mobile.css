@@ -1,0 +1,5 @@
+@media (max-width: 367px) {
+    h5, h6{
+        font-size: 56px !important;
+    }
+}

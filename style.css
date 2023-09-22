@@ -2,6 +2,11 @@
     margin: 0px;
     padding: 0px;
 }
+
+body {
+    overflow-x: hidden;
+}
+
 [class^="amarelo"], [class*="amarelo"]{
     background-color: #FFD704;
 }
@@ -113,7 +118,7 @@ h3, h4{
 
 .img{
     background-image: url(img/AdobeStock_319713812.jpeg);
-    height: 261px;
+    height: 195px;
     background-size: cover;
     align-items: center;
 
@@ -121,28 +126,28 @@ h3, h4{
 
 .img2{
     background-image: url(img/AdobeStock_319713641.jpeg);
-    height: 261px;
+    height: 195px;
     background-size: cover;
     align-items: center;
 }
 
 .img3{
     background-image: url(img/AdobeStock_111479179.jpeg);
-    height: 163px;
+    height: 153px;
     background-size: cover;
     align-items: center;
 }
 
 .img4{
     background-image: url(img/AdobeStock_583968036.jpeg);
-    height: 163px;
+    height: 153px;
     background-size: cover;
     align-items: center;
 }
 
 .img5{
     background-image: url(img/AdobeStock_265809361.jpeg);
-    height: 163px;
+    height: 153px;
     background-size: cover;
     align-items: center;
 }
@@ -150,10 +155,10 @@ h3, h4{
 
 h5{
     color: #FFD704;
-    font-size: 82px;
+    font-size: 80px;
 }
 h6{
-    font-size: 80px;
+    font-size: 77px;
     color: #FFD704;
 }
 
@@ -163,6 +168,11 @@ h6{
 .img4,
 .img5 {
     border: 3px solid #DE0A0A;
+    transition: all 0.3s;
+}
+
+:is(.img, .img2, .img3, .img4, .img5):hover {
+    transform: scale(1.5);
 }
 
 .info{
@@ -185,4 +195,14 @@ h6{
     font-size: 25px;
     display: flex;
     align-items: center
+}
+
+.ham{
+    background-image: url(img/Segue\ a\ gente.png);
+    background-repeat: no-repeat;
+    background-color: #de0a0a;
+}
+
+iframe{
+    width: 100%;
 }

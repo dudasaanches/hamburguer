@@ -9,6 +9,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
     crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="mobile.css">
   <link rel="stylesheet" href="style.css">
   <title>Estação do lanche</title>
 </head>
@@ -32,10 +33,10 @@
               <a class="nav-link" aria-current="page" href="#">Início</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#">Produtos</a>
+              <a class="nav-link" aria-current="page" href="#produtos">Produtos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#">Contatos</a>
+              <a class="nav-link" aria-current="page" href="#contatos">Contatos</a>
             </li>
             <li class="nav-item">
               <a href="
@@ -50,7 +51,7 @@
   </header>
   <div class="container-fluid">
     <div class="row banner">
-      <div class="col-12">
+      <div class="col-md-12">
         <div>
           <h1>Uma delícia de sabor</h1>
           <p>Para os clientes mais exigentes</p>
@@ -65,32 +66,32 @@
     </div>
 
     <div class="row amarelo pt-5 pb-5 card">
-      <div class="col-6 banner-p" id="bannerH"><a href=""></a></div>
-      <div class="col-6 banner-c" id="bannerC"><a href=""></a></div>
+      <div class="col-md-6 banner-p" id="bannerH"></div>
+      <div class="col-md-6 banner-c" id="bannerC"></div>
     </div>
 
-    <div class="row py-5">
-      <div class="col-4 burguer" id="produtos"></div>
-      <div class="col-6 ">
+    <div class="row py-5" id="produtos-1">
+      <div class="col-md-4 burguer" id="produtos" ></div>
+      <div class="col-md-6 ">
         <h3>Smash burguer fenomenal </h3>
         <p>Pão de gergilin, hamburguer 180g e muito queijo cheddar.</p>
         <p><strong>R$ 18,90</strong></p>
       </div>
-      <div class="col-2">
+      <div class="col-md-2 d-flex align-items-center">
         <a href="https://wa.me/55119988015273"><button type="button" class="btn btn-danger"
             style="border-radius: 50px; color: #FFD704; text-decoration: none;"><strong>EU
               QUERO!</strong></button></a>
       </div>
     </div>
 
-    <div class="row  py-5 beje2">
-      <div class="col-3 burguer2" id="produtos"></div>
-      <div class="col-6 ">
+    <div class="row  py-5 beje2" id="produtos-2">
+      <div class="col-md-3 burguer2" id="produtos"></div>
+      <div class="col-md-6 ">
         <h3>Extremo picante burguer</h3>
         <p>Pão de gergilin, hamburguer 180g e muito queijo cheddar, salada e molho especial de pimenta.</p>
         <p><strong>R$ 24,90</strong></p>
       </div>
-      <div class="col-3">
+      <div class="col-md-3 d-flex align-items-center">
         <a href="https://wa.me/55119988015273"><button type="button" class="btn btn-danger"
             style="border-radius: 50px; color: #FFD704; text-decoration: none;"><strong>EU
               QUERO!</strong></button></a>
@@ -98,13 +99,13 @@
     </div>
 
     <div class="row py-5 cinza" id="combo">
-      <div class="col-3 burguer3"></div>
-      <div class="col-6 ">
+      <div class="col-md-3 burguer3"></div>
+      <div class="col-md-6">
         <h3>Combo Picles</h3>
         <p>Pão de gergilin, hamburguer 180g e salada com picles. Acompanha Batata de 250g e Refrigerante de 350ml</p>
         <p><strong>R$ 39,90</strong></p>
       </div>
-      <div class="col-3">
+      <div class="col-md-3 d-flex align-items-center">
         <a href="https://wa.me/55119988015273"><button type="button" class="btn btn-danger"
             style="border-radius: 50px; color: #FFD704;text-decoration: none;"><strong>EU
               QUERO!</strong></button>
@@ -113,13 +114,13 @@
     </div>
 
     <div class="row py-4 px-3">
-      <div class="col-6">
+      <div class="col-md-6">
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d14869.512057305497!2d-50.33787230340106!3d-21.296074573465773!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1ssesi%20birigui!5e0!3m2!1spt-BR!2sbr!4v1695384244665!5m2!1spt-BR!2sbr"
           width="550" height="450" style="border:0;" allowfullscreen="" loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
-      <div class="col-6 formulario px-5">
+      <div class="col-md-6 formulario px-5">
         <h4>FALE CONOSCO</h4>
         <form action="">
           <div class="mb-3">
@@ -141,8 +142,8 @@
       </div>
     </div>
 
-    <div class="row vermelho p-5">
-      <div class="col-4 info">
+    <div class="row ham p-5">
+      <div class="col-md-4 info">
         <h5><strong>SEGUE A</strong></h5>
         <h6><strong>G E N T E</strong></h6>
         <div>
@@ -168,27 +169,27 @@
       </div>
       <div class="col">
         <div class="row">
-          <div class="col-6 img">
+          <div class="col-md-6 img">
           </div>
-          <div class="col-6 img2">
+          <div class="col-md-6 img2">
           </div>
-          <div class="col-4 img3">
+          <div class="col-md-4 img3">
           </div>
-          <div class="col-4 img4">
+          <div class="col-md-4 img4">
           </div>
-          <div class="col-4 img5">
+          <div class="col-md-4 img5">
           </div>
         </div>
       </div>
     </div>
-    <div class="row amarelo p-1">
-      <div class="col-6 logo">
+    <div class="row amarelo p-1" id="contatos">
+      <div class="col-md-6 logo">
         <p>
           <i class="fa-solid fa-burger"></i>
           <strong>Estação do Lanche</strong>
         </p>
       </div>
-      <div class="col-6">
+      <div class="col-md-6">
         <p class="contato">(18) 99123-1234 / (18) 3636-3636</p>
         <p class="contato">Rua Lorem Ipsum Nº 123, Centro - Birigui / SP</p>
       </div>
